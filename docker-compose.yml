@@ -1,4 +1,4 @@
-version: "3.8"
+# version: "3.9"
 
 services:
   auth:
@@ -20,7 +20,7 @@ services:
       - ./home:/app # Home loyihasi uchun bind mount
       - /app/node_modules # Konteyner ichidagi node_modules papkasini bind mount qilmaslik
     ports:
-      - "5174:5173"
+      - "5174:5174"
     command: pnpm run dev -- --host
 
   common:

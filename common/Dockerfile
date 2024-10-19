@@ -18,4 +18,4 @@ RUN pnpm install
 COPY . .
 
 # Loyihani ishga tushirish
-CMD ["pnpm", "run", "dev"]  # yoki "npm run dev" agar "pnpm" ishlatmasangiz
+CMD ["pnpm", "run", "dev"]  
