@@ -1,0 +1,12 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd auth && pnpm build && cd ../home && pnpm build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
